@@ -11,8 +11,8 @@ pipeline {
     
     environment {
         registryCredential = 'ecr:us-east-1:awstestcreds'
-        appRegistry = '992382398147.dkr.ecr.us-east-1.amazonaws.com/vprofileappimgtest'
-        vprofileRegistry = "https:992382398147.dkr.ecr.us-east-1.amazonaws.com"
+        appRegistry = '.  amazonaws.com/vprofileappimgtest'
+        vprofileRegistry = "https:       .amazonaws.com"
     }
 
     stages {
